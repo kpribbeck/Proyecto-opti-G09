@@ -120,7 +120,7 @@ for equipo1 in equipos:
             for estadio in estadios:
                 for ronda in T_N:
                     y[equipo1, equipo2, fecha_i, estadio, ronda] = m.addVar(
-                        vtype=GRB.BINARY, name="x_{}_{}_{}_{}_{}".format(equipo1, equipo2, fecha_i, estadio, ronda))
+                        vtype=GRB.BINARY, name="y_{}_{}_{}_{}_{}".format(equipo1, equipo2, fecha_i, estadio, ronda))
 
 
 
@@ -166,8 +166,21 @@ for equipo1 in equipos:
                 y[equipo1, equipo2, f_i, estadio, t_i] if equipo1 != equipo2 else 0 for estadio in estadios
                 for equipo2 in equipos))
 
+# Dos equipos se enfrentan una sola vez por ronda
+#\sum_{f_n}\sum_{j} x_{i, k, f_n, j, t_n} = 1 \forall i \neq k \in E, \forall t_n \in T_N
+#\sum_{f_i}\sum_{j} y_{i, k, f_i, j, t_i} = 1 \forall i \neq k \in E, \forall t_i \in T_I
+for equipo1 in equipos:
+    for equipo2 in equipos:
+        if equipo1 == equipo2:
+            continue
+        for t_n in T_N:
+            m.addConstr(quicksum(
 
+            ))
+        for t_i in T_I:
+            m.addConstr(quicksum(
 
+            ))
 
 
 
