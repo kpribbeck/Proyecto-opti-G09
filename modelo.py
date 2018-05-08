@@ -114,11 +114,13 @@ for equipo1 in equipos:
         for fecha_n in F_N:
             for estadio in estadios:
                 for ronda in T_N:
-                    x[equipo1, equipo2, fecha_n, estadio, ronda] = m.addVar(vtype=GRB.BINARY, name="x_{}_{}_{}_{}_{}".format(equipo1, equipo2, fecha_n, estadio, ronda))
+                    x[equipo1, equipo2, fecha_n, estadio, ronda] = m.addVar(
+                        vtype=GRB.BINARY, name="x_{}_{}_{}_{}_{}".format(equipo1, equipo2, fecha_n, estadio, ronda))
         for fecha_i in F_I:
             for estadio in estadios:
                 for ronda in T_N:
-                    y[equipo1, equipo2, fecha_i, estadio, ronda] = m.addVar(vtype=GRB.BINARY, name="x_{}_{}_{}_{}_{}".format(equipo1, equipo2, fecha_i, estadio, ronda))
+                    y[equipo1, equipo2, fecha_i, estadio, ronda] = m.addVar(
+                        vtype=GRB.BINARY, name="x_{}_{}_{}_{}_{}".format(equipo1, equipo2, fecha_i, estadio, ronda))
 
 
 
@@ -139,9 +141,35 @@ m.setObjective(H, GRB.MAXIMIZE)
 ###########################################################################
 #                            Restricciones                                #
 ###########################################################################
-#Agregar restricciones
-c1 = m.addConstr(x + 2*y + 3*z <= 4)
-c2 = m.addConstr(x + y >= 1)
+
+# En la liga interzona, los equipos se enfrentan solo contra rivales de su misma conferencia
+for equipo1 in equipos:
+    for equipo2 in equipos:
+        if (equipo1 == equipo2):
+            continue
+        for f_i in F_I:
+            for t_i in T_I:
+                for conferencia in C:
+                    m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, t_i] for estadio in estadios) <=
+                                (co[equipo1, conferencia] + co[equipo2, conferencia])/2)
+
+# Un equipo juega un solo partido por fecha
+for equipo1 in equipos:
+    for f_n in F_N:
+        for t_n in T_N:
+            m.addConstr(quicksum(
+                x[equipo1, equipo2, f_n, estadio, t_n] if equipo1 != equipo2 else 0 for estadio in estadios
+                for equipo2 in equipos))
+    for f_i in F_I:
+        for t_i in T_I:
+            m.addConstr(quicksum(
+                y[equipo1, equipo2, f_i, estadio, t_i] if equipo1 != equipo2 else 0 for estadio in estadios
+                for equipo2 in equipos))
+
+
+
+
+
 
 #Resolver el modelo
 m.optimize()
