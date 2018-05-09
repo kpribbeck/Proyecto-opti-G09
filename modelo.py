@@ -228,4 +228,4 @@ for f_i in F_I:
 m.optimize()
 
 #Imprimir los valores de las variables para la solución óptima
-# m.printAttr("X")
+#m.printAttr("X")
