@@ -387,3 +387,66 @@ Solution count 0
 Model is infeasible or unbounded
 Best objective -, best bound -, gap -
 Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/08/18 22:36:27
+
+Academic license - for non-commercial use only
+Optimize a model with 16088 rows, 101377 columns and 671648 nonzeros
+Variable types: 1 continuous, 101376 integer (101376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.15 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/08/18 22:39:27
+
+Academic license - for non-commercial use only
+Optimize a model with 16120 rows, 101377 columns and 773056 nonzeros
+Variable types: 1 continuous, 101376 integer (101376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.18 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/08/18 22:40:04
+
+Academic license - for non-commercial use only
+Optimize a model with 16120 rows, 101377 columns and 671680 nonzeros
+Variable types: 1 continuous, 101376 integer (101376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.16 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment

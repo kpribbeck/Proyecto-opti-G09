@@ -214,13 +214,15 @@ for equipo1 in equipos:
 
 # Cota inferior de capacidades por fecha (H)
 for f_n in F_N:
-    m.addConstr(
-        H <= quicksum(c[estadio] * x[equipo1, equipo2, f_n, estadio, t_n] for equipo1 in equipos for equipo2 in equipos
-                      for estadio in estadios for t_n in T_N if equipo1 != equipo2))
+    for t_n in T_N:
+        m.addConstr(
+            H <= quicksum(c[estadio] * x[equipo1, equipo2, f_n, estadio, t_n] for equipo1 in equipos for equipo2 in equipos
+                          for estadio in estadios if equipo1 != equipo2))
 for f_i in F_I:
-    m.addConstr(
-        H <= quicksum(c[estadio] * y[equipo1, equipo2, f_i, estadio, t_i] for equipo1 in equipos for equipo2 in equipos
-                      for estadio in estadios for t_i in T_I if equipo1 != equipo2))
+    for t_i in T_I:
+        m.addConstr(
+            H <= quicksum(c[estadio] * y[equipo1, equipo2, f_i, estadio, t_i] for equipo1 in equipos for equipo2 in equipos
+                          for estadio in estadios if equipo1 != equipo2))
 
 #Resolver el modelo
 m.optimize()
