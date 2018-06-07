@@ -1806,3 +1806,120 @@ IIS runtime: 1.76 seconds
 Warning: variable name "y_Colegio Los Leones de Quilpue_Osorno Básquetbol_1_Gimnasio Colegio Los Leones_1" has a space
 Warning: to let Gurobi read it back, use rlp format
 Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 19:35:29
+
+Academic license - for non-commercial use only
+Optimize a model with 8720 rows, 50953 columns and 387056 nonzeros
+Variable types: 1 continuous, 50952 integer (50952 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.11s
+
+Explored 0 nodes (0 simplex iterations) in 0.39 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 32 rows and 1 columns
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.15 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0     8720         0        1         0s
+       11       11         0        0         2s
+
+IIS computed: 11 constraints, 0 bounds
+IIS runtime: 2.46 seconds
+Warning: variable name "y_Colegio Los Leones de Quilpue_Osorno Básquetbol_1_Gimnasio Colegio Los Leones_1" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 19:42:34
+
+Academic license - for non-commercial use only
+Optimize a model with 8336 rows, 50953 columns and 285680 nonzeros
+Variable types: 1 continuous, 50952 integer (50952 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.08 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 32 rows and 1 columns
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.09 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0     8336         0        1         0s
+       19       59         0        0         5s
+       32       32         0        0         8s
+
+IIS computed: 32 constraints, 0 bounds
+IIS runtime: 7.54 seconds
+Warning: variable name "y_Club Deportivo Valdivia_Colegio Los Leones de Quilpue_3_Gimnasio Colegio Los Leones_2" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 19:50:32
+
+Academic license - for non-commercial use only
+Presolve removed 32 rows and 1 columns
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.11 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0     8720         0        1         1s
+       11       11         0        0         3s
+
+IIS computed: 11 constraints, 0 bounds
+IIS runtime: 2.64 seconds
+Warning: variable name "y_Colegio Los Leones de Quilpue_Osorno Básquetbol_1_Gimnasio Colegio Los Leones_1" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment

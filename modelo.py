@@ -1,4 +1,5 @@
 from gurobipy import *
+import sys
 
 # Crea un modelo vacío
 m = Model()
@@ -152,87 +153,105 @@ m.setObjective(H, GRB.MAXIMIZE)
 ###########################################################################
 
 # En la liga interzona, los equipos se enfrentan solo contra rivales de su misma conferencia
-for equipo1 in equipos:
-    for equipo2 in equipos:
-        if (equipo1 == equipo2):
-            continue
-        for f_i in F_I:
-            for t_i in T_I:
-                for conferencia in C:
-                    m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, t_i] for estadio in estadios) <=
-                                (co[equipo1][conferencia] + co[equipo2][conferencia])/2)
+def R1():
+    for equipo1 in equipos:
+        for equipo2 in equipos:
+            if (equipo1 == equipo2):
+                continue
+            for f_i in F_I:
+                for t_i in T_I:
+                    for conferencia in C:
+                        m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, t_i] for estadio in estadios) <=
+                                    (co[equipo1][conferencia] + co[equipo2][conferencia])/2)
 
 # Un equipo juega un solo partido por fecha
-for equipo1 in equipos:
-    for f_n in F_N:
-        for t_n in T_N:
-            m.addConstr(quicksum(
-                x[equipo1, equipo2, f_n, estadio, t_n] + x[equipo2, equipo1, f_n, estadio, t_n] for estadio in estadios
-                for equipo2 in equipos if equipo1 != equipo2) == 1)
-    for f_i in F_I:
-        for t_i in T_I:
-            m.addConstr(quicksum(
-                y[equipo1, equipo2, f_i, estadio, t_i] + y[equipo2, equipo1, f_i, estadio, t_i] for estadio in estadios
-                for equipo2 in equipos if equipo1 != equipo2) == 1)
-
-## Dos equipos se enfrentan una sola vez por ronda
-for equipo1 in equipos:
-    for equipo2 in equipos:
-        if equipo1 == equipo2:
-            continue
-        for t_n in T_N:
-            m.addConstr(quicksum(x[equipo1, equipo2, f_n, estadio, t_n] + x[equipo2, equipo1, f_n, estadio, t_n] for f_n in F_N for estadio in estadios) == 1)
-        for t_i in T_I:
-            m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, t_i] + y[equipo2, equipo1, f_i, estadio, t_i] for f_i in F_I for estadio in estadios) == 1)
-
-#Dos equipos se enfrentan en estadios distintos en rondas distintas
-for equipo1 in equipos:
-    for equipo2 in equipos:
-        if equipo1 == equipo2:
-            continue
-        m.addConstr(quicksum(x[equipo1, equipo2, f_n, estadio, 2] for f_n in F_N for estadio in estadios) == alpha[equipo1, equipo2])
-        m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, 2] for f_i in F_I for estadio in estadios) == beta[equipo1, equipo2])
-
-# Un equipo juega de local en un estadio, solo si este le pertenece
-for equipo1 in equipos:
-    for estadio in estadios:
+def R2():
+    for equipo1 in equipos:
         for f_n in F_N:
             for t_n in T_N:
-                m.addConstr(
-                    quicksum(x[equipo1, equipo2, f_n, estadio, t_n] for equipo2 in equipos if equipo1 != equipo2) <=
-                    e[equipo1][estadio])
+                m.addConstr(quicksum(
+                    x[equipo1, equipo2, f_n, estadio, t_n] + x[equipo2, equipo1, f_n, estadio, t_n] for estadio in estadios
+                    for equipo2 in equipos if equipo1 != equipo2) == 1)
         for f_i in F_I:
             for t_i in T_I:
-                m.addConstr(
-                    quicksum(y[equipo1, equipo2, f_i, estadio, t_i] for equipo2 in equipos if equipo1 != equipo2) <=
-                    e[equipo1][estadio])
+                m.addConstr(quicksum(
+                    y[equipo1, equipo2, f_i, estadio, t_i] + y[equipo2, equipo1, f_i, estadio, t_i] for estadio in estadios
+                    for equipo2 in equipos if equipo1 != equipo2) == 1)
+
+## Dos equipos se enfrentan una sola vez por ronda
+def R3():
+    for equipo1 in equipos:
+        for equipo2 in equipos:
+            if equipo1 == equipo2:
+                continue
+            for t_n in T_N:
+                m.addConstr(quicksum(x[equipo1, equipo2, f_n, estadio, t_n] + x[equipo2, equipo1, f_n, estadio, t_n] for f_n in F_N for estadio in estadios) == 1)
+            for t_i in T_I:
+                m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, t_i] + y[equipo2, equipo1, f_i, estadio, t_i] for f_i in F_I for estadio in estadios) == 1)
+
+#Dos equipos se enfrentan en estadios distintos en rondas distintas
+def R4():
+    for equipo1 in equipos:
+        for equipo2 in equipos:
+            if equipo1 == equipo2:
+                continue
+            m.addConstr(quicksum(x[equipo1, equipo2, f_n, estadio, 2] for f_n in F_N for estadio in estadios) == alpha[equipo1, equipo2])
+            m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, 2] for f_i in F_I for estadio in estadios) == beta[equipo1, equipo2])
+
+# Un equipo juega de local en un estadio, solo si este le pertenece
+def R5():
+    for equipo1 in equipos:
+        for estadio in estadios:
+            for f_n in F_N:
+                for t_n in T_N:
+                    m.addConstr(
+                        quicksum(x[equipo1, equipo2, f_n, estadio, t_n] for equipo2 in equipos if equipo1 != equipo2) <=
+                        e[equipo1][estadio])
+            for f_i in F_I:
+                for t_i in T_I:
+                    m.addConstr(
+                        quicksum(y[equipo1, equipo2, f_i, estadio, t_i] for equipo2 in equipos if equipo1 != equipo2) <=
+                        e[equipo1][estadio])
 
 # Cota inferior de capacidades por fecha (H)
-for f_n in F_N:
-    for t_n in T_N:
-        m.addConstr(
-            H <= quicksum(c[estadio] * x[equipo1, equipo2, f_n, estadio, t_n] for equipo1 in equipos for equipo2 in equipos
-                          for estadio in estadios if equipo1 != equipo2))
-for f_i in F_I:
-    for t_i in T_I:
-        m.addConstr(
-            H <= quicksum(c[estadio] * y[equipo1, equipo2, f_i, estadio, t_i] for equipo1 in equipos for equipo2 in equipos
-                          for estadio in estadios if equipo1 != equipo2))
+def R6():
+    for f_n in F_N:
+        for t_n in T_N:
+            m.addConstr(
+                H <= quicksum(c[estadio] * x[equipo1, equipo2, f_n, estadio, t_n] for equipo1 in equipos for equipo2 in equipos
+                            for estadio in estadios if equipo1 != equipo2))
+    for f_i in F_I:
+        for t_i in T_I:
+            m.addConstr(
+                H <= quicksum(c[estadio] * y[equipo1, equipo2, f_i, estadio, t_i] for equipo1 in equipos for equipo2 in equipos
+                            for estadio in estadios if equipo1 != equipo2))
+
+
 
 #Definicion alpha y beta
-for equipo1 in equipos:
-    for equipo2 in equipos:
-        if equipo1 == equipo2:
-            continue
-        m.addConstr(quicksum(
-            x[equipo1, equipo2, f_n, estadio, 1] for f_n in F_N for estadio in estadios) == alpha[equipo1, equipo2])
-        m.addConstr(quicksum(
-            y[equipo1, equipo2, f_i, estadio, 1] for f_i in F_I for estadio in estadios) == beta[equipo1, equipo2])
+def R7():
+    for equipo1 in equipos:
+        for equipo2 in equipos:
+            if equipo1 == equipo2:
+                continue
+            m.addConstr(quicksum(
+                x[equipo1, equipo2, f_n, estadio, 1] for f_n in F_N for estadio in estadios) == alpha[equipo1, equipo2])
+            m.addConstr(quicksum(
+                y[equipo1, equipo2, f_i, estadio, 1] for f_i in F_I for estadio in estadios) == beta[equipo1, equipo2])
 
-#Resolver el modelo
-m.optimize()
+#Aplicar restricciones
+
+print("\n\n"+"#"*40)
+print("MODELO CON RESTRICCIONES: {}".format(", ".join(sys.argv[1:])))
+print("#"*40+"\n")
+
+constr = [R1, R2, R3, R4, R5, R6, R7]
+for _ in sys.argv[1:]:
+    constr[int(_) - 1]()
+
+#m.optimize()
 m.computeIIS()
-m.write("m.ilp")
+m.write("m_{}.ilp".format("_".join(sys.argv[1:])))
 
 #Imprimir los valores de las variables para la solución óptima
 #m.printAttr("X")
