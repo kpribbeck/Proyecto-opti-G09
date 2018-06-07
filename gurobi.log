@@ -516,3 +516,1293 @@ Solution count 0
 Model is infeasible or unbounded
 Best objective -, best bound -, gap -
 Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/08/18 23:04:44
+
+Academic license - for non-commercial use only
+Optimize a model with 16120 rows, 101377 columns and 671680 nonzeros
+Variable types: 1 continuous, 101376 integer (101376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.22 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/10/18 12:58:41
+
+Academic license - for non-commercial use only
+Optimize a model with 15856 rows, 101377 columns and 671680 nonzeros
+Variable types: 1 continuous, 101376 integer (101376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.06s
+
+Explored 0 nodes (0 simplex iterations) in 0.17 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/10/18 13:00:19
+
+Academic license - for non-commercial use only
+Optimize a model with 15856 rows, 101377 columns and 671680 nonzeros
+Variable types: 1 continuous, 101376 integer (101376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.15 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/10/18 13:09:11
+
+Academic license - for non-commercial use only
+Optimize a model with 15856 rows, 101377 columns and 671680 nonzeros
+Variable types: 1 continuous, 101376 integer (101376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 2e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.15 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/10/18 13:20:13
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/10/18 13:21:30
+
+Academic license - for non-commercial use only
+Optimize a model with 15856 rows, 101377 columns and 773056 nonzeros
+Variable types: 1 continuous, 101376 integer (101376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 2e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.19 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 05/10/18 13:27:10
+
+Academic license - for non-commercial use only
+Optimize a model with 16120 rows, 101377 columns and 874432 nonzeros
+Variable types: 1 continuous, 101376 integer (101376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 2e+00]
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.22 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/05/18 15:04:14
+
+Academic license - for non-commercial use only
+Optimize a model with 16384 rows, 101641 columns and 773584 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.16s
+
+Explored 0 nodes (0 simplex iterations) in 0.71 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/05/18 15:11:44
+
+Academic license - for non-commercial use only
+Optimize a model with 16120 rows, 101641 columns and 722632 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve removed 0 rows and 264 columns
+Presolve time: 0.17s
+
+Explored 0 nodes (0 simplex iterations) in 0.69 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/05/18 15:12:23
+
+Academic license - for non-commercial use only
+Optimize a model with 15856 rows, 101641 columns and 671680 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve removed 0 rows and 264 columns
+Presolve time: 0.16s
+
+Explored 0 nodes (0 simplex iterations) in 0.65 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:21:17
+
+Academic license - for non-commercial use only
+Optimize a model with 16384 rows, 101641 columns and 773584 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.07s
+
+Explored 0 nodes (0 simplex iterations) in 0.24 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.24 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    16384         0        1         0s
+       17       23         0        0         5s
+       23       23         0        0         6s
+
+IIS computed: 23 constraints, 0 bounds
+IIS runtime: 6.10 seconds
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:27:34
+
+Academic license - for non-commercial use only
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:27:35
+
+Academic license - for non-commercial use only
+Optimize a model with 16120 rows, 101641 columns and 722632 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve removed 0 rows and 264 columns
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.23 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 265 columns
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.22 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    16120         0        1         0s
+       12       23         0        0         5s
+       23       23         0        0         7s
+
+IIS computed: 23 constraints, 0 bounds
+IIS runtime: 6.76 seconds
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:28:21
+
+Academic license - for non-commercial use only
+Optimize a model with 7168 rows, 101641 columns and 672208 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.21 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.19 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0     7168         0        1         0s
+       16       23         0        0         5s
+       23       23         0        0         6s
+
+IIS computed: 23 constraints, 0 bounds
+IIS runtime: 6.23 seconds
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:28:39
+
+Academic license - for non-commercial use only
+Optimize a model with 16320 rows, 101641 columns and 672144 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.21 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.21 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    16320         0        1         0s
+        0     6645         0        0         5s
+        0     5374         0        0        10s
+        0     2629         0        0        15s
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:29:12
+
+Academic license - for non-commercial use only
+Optimize a model with 15856 rows, 101641 columns and 570832 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.15 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.19 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    15856         0        1         0s
+        0    15856         0        1        72s
+        0    10233         0        1        75s
+        0     8312         0        1        80s
+        0     5270         0        1        85s
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:31:15
+
+Academic license - for non-commercial use only
+Optimize a model with 9808 rows, 101641 columns and 304720 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -0.0000000
+Presolve removed 8448 rows and 92928 columns
+Presolve time: 0.24s
+Presolved: 1360 rows, 8713 columns, 25936 nonzeros
+Variable types: 0 continuous, 8713 integer (8712 binary)
+
+Root relaxation: objective 1.497500e+04, 2837 iterations, 0.08 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 14975.0000    0   67   -0.00000 14975.0000      -     -    0s
+H    0     0                    10300.000000 14975.0000  45.4%     -    0s
+H    0     0                    12750.000000 14975.0000  17.5%     -    0s
+H    0     0                    12950.000000 14975.0000  15.6%     -    0s
+H    0     0                    14250.000000 14975.0000  5.09%     -    0s
+H    0     0                    14300.000000 14975.0000  4.72%     -    1s
+H    0     0                    14450.000000 14975.0000  3.63%     -    1s
+     0     0 14950.0000    0   96 14450.0000 14950.0000  3.46%     -    1s
+     0     0 14950.0000    0   88 14450.0000 14950.0000  3.46%     -    1s
+     0     0 14950.0000    0  136 14450.0000 14950.0000  3.46%     -    1s
+     0     0 14950.0000    0  129 14450.0000 14950.0000  3.46%     -    1s
+     0     0 14950.0000    0   78 14450.0000 14950.0000  3.46%     -    2s
+     0     0 14950.0000    0   72 14450.0000 14950.0000  3.46%     -    2s
+     0     0 14950.0000    0   69 14450.0000 14950.0000  3.46%     -    2s
+     0     0 14950.0000    0   74 14450.0000 14950.0000  3.46%     -    2s
+     0     0 14950.0000    0   73 14450.0000 14950.0000  3.46%     -    3s
+     0     0 14950.0000    0   97 14450.0000 14950.0000  3.46%     -    3s
+H    0     0                    14500.000000 14950.0000  3.10%     -    3s
+     0     0 14950.0000    0   70 14500.0000 14950.0000  3.10%     -    3s
+     0     0 14950.0000    0   68 14500.0000 14950.0000  3.10%     -    3s
+     0     2 14950.0000    0   53 14500.0000 14950.0000  3.10%     -    4s
+    29    27 14747.7273    7   95 14500.0000 14950.0000  3.10%   173    5s
+   952   916 14950.0000  175   54 14500.0000 14950.0000  3.10%  26.9   10s
+  1129  1074 14950.0000  142   62 14500.0000 14950.0000  3.10%  25.7   15s
+  1136  1079 14747.7273   58   67 14500.0000 14950.0000  3.10%  25.5   20s
+  1142  1083 14950.0000  125   62 14500.0000 14950.0000  3.10%  25.4   25s
+  1427  1259 14950.0000   46   63 14500.0000 14950.0000  3.10%  56.2   30s
+  2956  2239 14950.0000  218   66 14500.0000 14950.0000  3.10%  52.6   35s
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:33:10
+
+Academic license - for non-commercial use only
+Optimize a model with 16384 rows, 101641 columns and 773584 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.20 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.27 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    16384         0        1         0s
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:33:47
+
+Academic license - for non-commercial use only
+Optimize a model with 9808 rows, 101641 columns and 304720 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -0.0000000
+Presolve removed 8448 rows and 92928 columns
+Presolve time: 0.21s
+Presolved: 1360 rows, 8713 columns, 25936 nonzeros
+Variable types: 0 continuous, 8713 integer (8712 binary)
+
+Root relaxation: objective 1.497500e+04, 2837 iterations, 0.07 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 14975.0000    0   67   -0.00000 14975.0000      -     -    0s
+H    0     0                    10300.000000 14975.0000  45.4%     -    0s
+H    0     0                    12750.000000 14975.0000  17.5%     -    0s
+H    0     0                    12950.000000 14975.0000  15.6%     -    0s
+H    0     0                    14250.000000 14975.0000  5.09%     -    0s
+H    0     0                    14300.000000 14975.0000  4.72%     -    0s
+H    0     0                    14450.000000 14975.0000  3.63%     -    1s
+     0     0 14950.0000    0   96 14450.0000 14950.0000  3.46%     -    1s
+     0     0 14950.0000    0   88 14450.0000 14950.0000  3.46%     -    1s
+     0     0 14950.0000    0  136 14450.0000 14950.0000  3.46%     -    1s
+     0     0 14950.0000    0  129 14450.0000 14950.0000  3.46%     -    1s
+     0     0 14950.0000    0   78 14450.0000 14950.0000  3.46%     -    2s
+     0     0 14950.0000    0   72 14450.0000 14950.0000  3.46%     -    2s
+     0     0 14950.0000    0   69 14450.0000 14950.0000  3.46%     -    2s
+     0     0 14950.0000    0   74 14450.0000 14950.0000  3.46%     -    2s
+     0     0 14950.0000    0   73 14450.0000 14950.0000  3.46%     -    3s
+     0     0 14950.0000    0   97 14450.0000 14950.0000  3.46%     -    3s
+H    0     0                    14500.000000 14950.0000  3.10%     -    3s
+     0     0 14950.0000    0   70 14500.0000 14950.0000  3.10%     -    3s
+     0     0 14950.0000    0   68 14500.0000 14950.0000  3.10%     -    3s
+     0     2 14950.0000    0   53 14500.0000 14950.0000  3.10%     -    4s
+    37    33 14747.7273    9   95 14500.0000 14950.0000  3.10%   141    5s
+   952   916 14950.0000  175   54 14500.0000 14950.0000  3.10%  26.9   10s
+  1130  1075 14747.7273  127   63 14500.0000 14950.0000  3.10%  25.7   15s
+  1137  1080 14950.0000    8   89 14500.0000 14950.0000  3.10%  25.5   20s
+  1143  1084 14745.6044   40   45 14500.0000 14950.0000  3.10%  25.4   25s
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:34:20
+
+Academic license - for non-commercial use only
+Optimize a model with 16384 rows, 101641 columns and 773584 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.20 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.23 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    16384         0        1         0s
+       16       23         0        0         5s
+       23       23         0        0         6s
+
+IIS computed: 23 constraints, 0 bounds
+IIS runtime: 6.26 seconds
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:35:18
+
+Academic license - for non-commercial use only
+Optimize a model with 16384 rows, 101641 columns and 773584 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.20 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.23 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    16384         0        1         0s
+       17       23         0        0         5s
+       23       23         0        0         6s
+
+IIS computed: 23 constraints, 0 bounds
+IIS runtime: 6.11 seconds
+Warning: variable name "x_Colegio Los Leones de Quilpue_Español de Talca_1_Gimnasio Colegio Los Leones_2" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:36:46
+
+Academic license - for non-commercial use only
+Optimize a model with 16384 rows, 101641 columns and 773584 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.21 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.23 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    16384         0        1         0s
+       17       23         0        0         5s
+       23       23         0        0         6s
+
+IIS computed: 23 constraints, 0 bounds
+IIS runtime: 6.07 seconds
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:37:16
+
+Academic license - for non-commercial use only
+Optimize a model with 16384 rows, 101641 columns and 773584 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.21 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.22 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    16384         0        1         0s
+       16       23         0        0         5s
+       23       23         0        0         6s
+
+IIS computed: 23 constraints, 0 bounds
+IIS runtime: 6.18 seconds
+Warning: variable name "x_Colegio Los Leones de Quilpue_Español de Talca_1_Gimnasio Colegio Los Leones_2" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:37:34
+
+Academic license - for non-commercial use only
+Optimize a model with 16384 rows, 101641 columns and 773584 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.23 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.05s
+
+Explored 0 nodes (0 simplex iterations) in 0.23 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    16384         0        1         0s
+       16       23         0        0         5s
+       23       23         0        0         6s
+
+IIS computed: 23 constraints, 0 bounds
+IIS runtime: 6.17 seconds
+Warning: variable name "x_Colegio Los Leones de Quilpue_Español de Talca_1_Gimnasio Colegio Los Leones_2" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:41:24
+
+Academic license - for non-commercial use only
+Optimize a model with 10576 rows, 101641 columns and 507472 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 9216 rows and 92928 columns
+Presolve time: 0.52s
+Presolved: 1360 rows, 8713 columns, 33680 nonzeros
+Variable types: 0 continuous, 8713 integer (8712 binary)
+
+Root relaxation: objective 1.497500e+04, 3913 iterations, 0.56 seconds
+Total elapsed time = 5.05s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 14975.0000    0  391          - 14975.0000      -     -    6s
+     0     0 14950.0000    0  625          - 14950.0000      -     -    7s
+H    0     0                    12450.000000 14950.0000  20.1%     -    7s
+H    0     0                    12500.000000 14950.0000  19.6%     -    7s
+     0     0 14950.0000    0  595 12500.0000 14950.0000  19.6%     -    7s
+     0     0 14950.0000    0  876 12500.0000 14950.0000  19.6%     -    8s
+H    0     0                    12950.000000 14950.0000  15.4%     -    8s
+     0     0 14950.0000    0  857 12950.0000 14950.0000  15.4%     -    8s
+     0     0 14950.0000    0  406 12950.0000 14950.0000  15.4%     -   16s
+     0     0 14950.0000    0  552 12950.0000 14950.0000  15.4%     -   16s
+     0     0 14950.0000    0  397 12950.0000 14950.0000  15.4%     -   22s
+     0     0 14950.0000    0  397 12950.0000 14950.0000  15.4%     -   24s
+H    0     0                    13000.000000 14950.0000  15.0%     -   26s
+     0     2 14950.0000    0  397 13000.0000 14950.0000  15.0%     -   31s
+    28    15 14950.0000    9  537 13000.0000 14950.0000  15.0%  1042   40s
+   138   101 14950.0000   31  454 13000.0000 14950.0000  15.0%   448   46s
+*  372   257             139    13250.000000 14950.0000  12.8%   274   48s
+   556   391 14950.0000  105  367 13250.0000 14950.0000  12.8%   242   66s
+H  658   441                    13500.000000 14950.0000  10.7%   227   68s
+H  678   441                    13650.000000 14950.0000  9.52%   222   68s
+H  685   440                    13750.000000 14950.0000  8.73%   220   68s
+   918   656     cutoff  166      13750.0000 14950.0000  8.73%   189   75s
+*  961   648             143    13800.000000 14950.0000  8.33%   185   75s
+  1083   738 14651.4752   71  355 13800.0000 14950.0000  8.33%   184   83s
+  1084   739 14950.0000   82  493 13800.0000 14950.0000  8.33%   184   90s
+  1086   740 14450.0000   77  369 13800.0000 14950.0000  8.33%   184   96s
+  1088   742 14000.0000  129  422 13800.0000 14950.0000  8.33%   183  100s
+  1090   743 14850.0000   72  369 13800.0000 14950.0000  8.33%   183  106s
+  1092   744 14450.0000   80  395 13800.0000 14950.0000  8.33%   183  111s
+  1094   746 14450.0000   94  382 13800.0000 14950.0000  8.33%   182  116s
+  1096   747 14934.0909   27  400 13800.0000 14950.0000  8.33%   182  122s
+  1098   748 14935.7143   34  353 13800.0000 14950.0000  8.33%   182  127s
+  1100   750 14655.8824   59  383 13800.0000 14950.0000  8.33%   181  134s
+  1102   751 14000.0000  134  429 13800.0000 14950.0000  8.33%   181  142s
+  1103   752 14150.0000  141  325 13800.0000 14950.0000  8.33%   181  145s
+  1107   755 14945.4545  116  381 13800.0000 14950.0000  8.33%   310  152s
+  1108   756 14950.0000   99  478 13800.0000 14950.0000  8.33%   309  156s
+  1110   757 14850.0000   56  484 13800.0000 14950.0000  8.33%   309  161s
+  1112   759 14950.0000    6  371 13800.0000 14950.0000  8.33%   308  167s
+  1114   760 14950.0000   27  339 13800.0000 14950.0000  8.33%   308  171s
+  1116   761 14950.0000   65  321 13800.0000 14950.0000  8.33%   307  175s
+  1119   763 14626.6667   79  535 13800.0000 14950.0000  8.33%   306  180s
+  1122   765 14658.3333   29  357 13800.0000 14950.0000  8.33%   306  188s
+  1124   767 14150.0000  122  372 13800.0000 14950.0000  8.33%   305  193s
+  1126   768 14658.3333   23  396 13800.0000 14950.0000  8.33%   305  200s
+  1128   769 14850.0000   52  318 13800.0000 14950.0000  8.33%   304  205s
+  1129   773 14950.0000   22  547 13800.0000 14950.0000  8.33%   581  214s
+  1131   776 14950.0000   23  533 13800.0000 14950.0000  8.33%   581  223s
+  1135   779 14950.0000   24  516 13800.0000 14950.0000  8.33%   580  225s
+  1139   782 14950.0000   24  510 13800.0000 14950.0000  8.33%   581  231s
+  1147   787 14950.0000   25  513 13800.0000 14950.0000  8.33%   587  235s
+  1168   796 14950.0000   27  504 13800.0000 14950.0000  8.33%   588  241s
+  1177   803 14950.0000   28  500 13800.0000 14950.0000  8.33%   588  246s
+  1226   831 14950.0000   34  481 13800.0000 14950.0000  8.33%   594  257s
+  1441   977 14950.0000   58  448 13800.0000 14950.0000  8.33%   594  265s
+  1750  1167 14950.0000   93  413 13800.0000 14950.0000  8.33%   581  270s
+* 2145  1319             183    13950.000000 14950.0000  7.17%   542  273s
+  2270  1329 14750.0000  131  374 13950.0000 14950.0000  7.17%   520  277s
+H 2552  1375                    14000.000000 14950.0000  6.79%   495  277s
+  2612  1388 14750.0000  175  281 14000.0000 14950.0000  6.79%   486  283s
+H 2613  1330                    14200.000000 14950.0000  5.28%   486  283s
+  2616  1319 14750.0000  175  256 14200.0000 14950.0000  5.28%   486  292s
+* 2677  1251             206    14250.000000 14950.0000  4.91%   478  292s
+  2771  1320 infeasible  206      14250.0000 14950.0000  4.91%   469  296s
+* 2825  1176             178    14450.000000 14950.0000  3.46%   465  296s
+  3080  1259 14950.0000   86  460 14450.0000 14950.0000  3.46%   442  310s
+  3132  1295 14950.0000   87  444 14450.0000 14950.0000  3.46%   438  316s
+  3265  1414 14950.0000  129  364 14450.0000 14950.0000  3.46%   431  332s
+  3373  1524 14950.0000  144  354 14450.0000 14950.0000  3.46%   427  337s
+  3589  1724 14850.0000  167  307 14450.0000 14950.0000  3.46%   424  341s
+* 3755  1704             229    14500.000000 14950.0000  3.10%   413  341s
+  3969  1996     cutoff  231      14500.0000 14950.0000  3.10%   411  346s
+  4314  2303 14750.0000  192  414 14500.0000 14950.0000  3.10%   403  350s
+  4694  2606 14750.0000  304  341 14500.0000 14950.0000  3.10%   396  355s
+  4986  2837 14930.0000  183  439 14500.0000 14950.0000  3.10%   397  360s
+  5447  3200 14574.6923  245  224 14500.0000 14950.0000  3.10%   388  365s
+  5699  3433 14950.0000  194  430 14500.0000 14950.0000  3.10%   386  370s
+  6224  3850 14900.0000  151  416 14500.0000 14950.0000  3.10%   377  390s
+  6321  3926 14900.0000  172  372 14500.0000 14950.0000  3.10%   375  395s
+  6846  4380 14900.0000  169  419 14500.0000 14950.0000  3.10%   366  417s
+  7026  4528 14750.0000  214  354 14500.0000 14950.0000  3.10%   362  422s
+  7619  5009 14950.0000  172  457 14500.0000 14950.0000  3.10%   351  427s
+  7985  5310 14860.0000  252  372 14500.0000 14950.0000  3.10%   343  451s
+  8085  5378 14750.0000  214  368 14500.0000 14950.0000  3.10%   341  457s
+  8751  5890 14950.0000   96  433 14500.0000 14950.0000  3.10%   335  463s
+  9178  6276 14850.0000  220  469 14500.0000 14950.0000  3.10%   329  473s
+  9585  6609 infeasible  304      14500.0000 14950.0000  3.10%   325  481s
+ 10342  7199 14950.0000  212  441 14500.0000 14950.0000  3.10%   319  489s
+ 11228  7925 14800.0000  199  262 14500.0000 14950.0000  3.10%   310  496s
+ 12080  8577 14950.0000  209  422 14500.0000 14950.0000  3.10%   305  504s
+ 12785  9144 14950.0000  292  409 14500.0000 14950.0000  3.10%   303  511s
+ 13643  9813 14900.0000  277  406 14500.0000 14950.0000  3.10%   298  518s
+ 14353 10422 infeasible  323      14500.0000 14950.0000  3.10%   296  524s
+ 14485 10500 14950.0000  228  424 14500.0000 14950.0000  3.10%   296  531s
+ 15362 11215 14950.0000  257  423 14500.0000 14950.0000  3.10%   291  538s
+ 15754 11545 14950.0000  155  442 14500.0000 14950.0000  3.10%   290  544s
+ 16833 12486 14950.0000   85  468 14500.0000 14950.0000  3.10%   283  550s
+ 17162 12722 14950.0000   89  468 14500.0000 14950.0000  3.10%   282  566s
+ 17168 12702 14950.0000   90  421 14500.0000 14950.0000  3.10%   282  571s
+ 17845 13240 14850.0000  126  427 14500.0000 14950.0000  3.10%   279  576s
+ 18422 13684 14700.0000  149  389 14500.0000 14950.0000  3.10%   276  582s
+ 19047 14187 14900.0000  257  393 14500.0000 14950.0000  3.10%   273  588s
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:51:26
+
+Academic license - for non-commercial use only
+Optimize a model with 15856 rows, 101641 columns and 570832 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.16 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.17 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    15856         0        1         0s
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:51:51
+
+Academic license - for non-commercial use only
+Optimize a model with 11104 rows, 101641 columns and 710224 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 9612 rows and 92994 columns
+Presolve time: 0.47s
+
+Explored 0 nodes (0 simplex iterations) in 0.63 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 9676 rows and 92995 columns
+Presolve time: 0.33s
+
+Explored 0 nodes (0 simplex iterations) in 0.49 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    11104         0        1         1s
+       11       25         0        0         5s
+       23       23         0        0         7s
+
+IIS computed: 23 constraints, 0 bounds
+IIS runtime: 7.12 seconds
+Warning: variable name "x_Colegio Los Leones de Quilpue_Español de Talca_1_Gimnasio Colegio Los Leones_1" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:52:12
+
+Academic license - for non-commercial use only
+Optimize a model with 15088 rows, 101641 columns and 368080 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Found heuristic solution: objective -0.0000000
+Presolve removed 15022 rows and 101146 columns
+Presolve time: 0.13s
+Presolved: 66 rows, 495 columns, 990 nonzeros
+Variable types: 0 continuous, 495 integer (495 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.19 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+Found heuristic solution: objective -0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+IIS runtime: 0.05 seconds
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:53:36
+
+Academic license - for non-commercial use only
+Optimize a model with 15616 rows, 101641 columns and 570832 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.11 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.13 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    15616         0        1         0s
+       11       21         0        0         5s
+       21       21         0        0         6s
+
+IIS computed: 21 constraints, 0 bounds
+IIS runtime: 6.49 seconds
+Warning: variable name "y_Deportes Castro_Las Ánimas de Valdivia_1_Gimnasio Colegio Los Leones_1" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:53:54
+
+Academic license - for non-commercial use only
+Optimize a model with 15856 rows, 101641 columns and 570832 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.15 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.17 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    15856         0        1         0s
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:54:06
+
+Academic license - for non-commercial use only
+Optimize a model with 15856 rows, 101641 columns and 570832 nonzeros
+Variable types: 1 continuous, 101640 integer (101640 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.14 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 64 rows and 1 columns
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.17 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0    15856         0        1         0s
+        0    15856         0        1        71s
+        0     9190         0        1        75s
+        0     7925         0        1        80s
+        0     5006         0        1        85s
+        0     3848         0        1        90s
+        0     2950         0        1        95s
+        0     1952         0        1       100s
+        0     1372         0        1       105s
+        0      917         0        1       110s
+        0      614         0        1       115s
+        0      340         0        1       120s
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:59:00
+
+Academic license - for non-commercial use only
+Optimize a model with 8720 rows, 50953 columns and 387056 nonzeros
+Variable types: 1 continuous, 50952 integer (50952 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.11 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 32 rows and 1 columns
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.10 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0     8720         0        1         0s
+       11       11         0        0         2s
+
+IIS computed: 11 constraints, 0 bounds
+IIS runtime: 1.77 seconds
+Warning: variable name "y_Colegio Los Leones de Quilpue_Osorno Básquetbol_1_Gimnasio Colegio Los Leones_1" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:59:31
+
+Academic license - for non-commercial use only
+Optimize a model with 6080 rows, 50953 columns and 355376 nonzeros
+Variable types: 1 continuous, 50952 integer (50952 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 4872 rows and 46464 columns
+Presolve time: 0.25s
+Presolved: 1208 rows, 4489 columns, 21328 nonzeros
+Variable types: 0 continuous, 4489 integer (4488 binary)
+
+Root relaxation: infeasible, 570 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (570 simplex iterations) in 0.37 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 4904 rows and 46465 columns
+Presolve time: 0.20s
+Presolved: 1176 rows, 4488 columns, 17424 nonzeros
+Variable types: 0 continuous, 4488 integer (4488 binary)
+
+Root relaxation: infeasible, 637 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (637 simplex iterations) in 0.31 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0     6080         0        1         0s
+       11       11         0        0         2s
+
+IIS computed: 11 constraints, 0 bounds
+IIS runtime: 1.87 seconds
+Warning: variable name "y_Colegio Los Leones de Quilpue_Club Deportivo Valdivia_1_Gimnasio Colegio Los Leones_1" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (win64, Python) logging started 06/07/18 14:59:43
+
+Academic license - for non-commercial use only
+Optimize a model with 8720 rows, 50953 columns and 387056 nonzeros
+Variable types: 1 continuous, 50952 integer (50952 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-01, 1e+00]
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.09 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+Presolve removed 32 rows and 1 columns
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.10 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+      Constraints           Bounds       Runtime
+     Min       Max       Min      Max
+------------------------------------------------
+        0     8720         0        1         0s
+       11       11         0        0         2s
+
+IIS computed: 11 constraints, 0 bounds
+IIS runtime: 1.76 seconds
+Warning: variable name "y_Colegio Los Leones de Quilpue_Osorno Básquetbol_1_Gimnasio Colegio Los Leones_1" has a space
+Warning: to let Gurobi read it back, use rlp format
+Freed default Gurobi environment
