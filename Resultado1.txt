@@ -1,0 +1,352 @@
+C:\Users\ribbe\Anaconda3\python.exe "D:/Documents/UC/9no Semestre/Optimización/Proyecto-opti-G09/modelo.py"
+Academic license - for non-commercial use only
+Optimize a model with 8808 rows, 50953 columns and 1093608 nonzeros
+Variable types: 1 continuous, 50952 integer (50952 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 7864 rows and 46464 columns
+Presolve time: 0.56s
+Presolved: 944 rows, 4489 columns, 17104 nonzeros
+Variable types: 0 continuous, 4489 integer (4488 binary)
+Found heuristic solution: objective 17500.000000
+
+Root relaxation: objective 2.027273e+04, 5931 iterations, 0.57 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 20272.7273    0  287 17500.0000 20272.7273  15.8%     -    2s
+H    0     0                    17700.000000 20272.7273  14.5%     -    2s
+     0     0 20250.0000    0  371 17700.0000 20250.0000  14.4%     -    2s
+H    0     0                    17750.000000 20250.0000  14.1%     -    2s
+     0     0 20250.0000    0  393 17750.0000 20250.0000  14.1%     -    2s
+H    0     0                    17950.000000 20250.0000  12.8%     -    2s
+     0     0 20250.0000    0  399 17950.0000 20250.0000  12.8%     -    3s
+H    0     0                    18450.000000 20250.0000  9.76%     -    3s
+     0     0 20250.0000    0  385 18450.0000 20250.0000  9.76%     -    3s
+     0     0 20250.0000    0  262 18450.0000 20250.0000  9.76%     -    4s
+     0     0 20250.0000    0  326 18450.0000 20250.0000  9.76%     -    5s
+H    0     0                    18800.000000 20250.0000  7.71%     -    7s
+     0     0 20250.0000    0  289 18800.0000 20250.0000  7.71%     -    7s
+     0     0 20250.0000    0  274 18800.0000 20250.0000  7.71%     -    7s
+     0     2 20250.0000    0  274 18800.0000 20250.0000  7.71%     -    8s
+    19    21 19304.5455    5  353 18800.0000 20250.0000  7.71%   960   10s
+    92    83 19259.0909   16  343 18800.0000 20250.0000  7.71%   605   15s
+*  284   111              89    18950.000000 20250.0000  6.86%   364   17s
+   331   111 19020.0000    7  376 18950.0000 20250.0000  6.86%   342   23s
+   376   139 20179.5775   20  343 18950.0000 20250.0000  6.86%   363   25s
+   410   152 19450.0000   24  359 18950.0000 20250.0000  6.86%   397   30s
+
+Cutting planes:
+  Cover: 1
+  Clique: 9
+  MIR: 20
+  StrongCG: 5
+  Inf proof: 2
+  Zero half: 10
+
+Explored 723 nodes (246551 simplex iterations) in 30.59 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 7: 18950 18800 18450 ... 17500
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.895000000000e+04, best bound 1.895000000000e+04, gap 0.0000%
+
+    Variable            x 
+-------------------------
+alpha_Colegio Los Leones de Quilpue_Universidad Católica            1 
+beta_Colegio Los Leones de Quilpue_Universidad Católica            1 
+x_Colegio Los Leones de Quilpue_Universidad Católica_1_Gimnasio Colegio Los Leones_2            1 
+x_Colegio Los Leones de Quilpue_Universidad Católica_5_Gimnasio Colegio Los Leones_1            1 
+y_Colegio Los Leones de Quilpue_Universidad Católica_1_Gimnasio Colegio Los Leones_1            1 
+y_Colegio Los Leones de Quilpue_Universidad Católica_4_Gimnasio Colegio Los Leones_2            1 
+alpha_Colegio Los Leones de Quilpue_Municipal de Puente Alto            1 
+x_Colegio Los Leones de Quilpue_Municipal de Puente Alto_2_Gimnasio Colegio Los Leones_1            1 
+x_Colegio Los Leones de Quilpue_Municipal de Puente Alto_7_Gimnasio Colegio Los Leones_2            1 
+alpha_Colegio Los Leones de Quilpue_AB Ancud            1 
+x_Colegio Los Leones de Quilpue_AB Ancud_5_Gimnasio Colegio Los Leones_2            1 
+x_Colegio Los Leones de Quilpue_AB Ancud_6_Gimnasio Colegio Los Leones_1            1 
+alpha_Colegio Los Leones de Quilpue_Deportes Castro            1 
+x_Colegio Los Leones de Quilpue_Deportes Castro_4_Gimnasio Colegio Los Leones_2            1 
+x_Colegio Los Leones de Quilpue_Deportes Castro_7_Gimnasio Colegio Los Leones_1            1 
+alpha_Español de Talca_Colegio Los Leones de Quilpue            1 
+x_Español de Talca_Colegio Los Leones de Quilpue_10_Gimnasio Regional de Talca_2            1 
+x_Español de Talca_Colegio Los Leones de Quilpue_11_Gimnasio Regional de Talca_1            1 
+alpha_Español de Talca_Universidad Católica            1 
+beta_Español de Talca_Universidad Católica            1 
+x_Español de Talca_Universidad Católica_2_Gimnasio Regional de Talca_2            1 
+x_Español de Talca_Universidad Católica_10_Gimnasio Regional de Talca_1            1 
+y_Español de Talca_Universidad Católica_3_Gimnasio Regional de Talca_1            1 
+y_Español de Talca_Universidad Católica_3_Gimnasio Regional de Talca_2            1 
+alpha_Español de Talca_Universidad de Concepción            1 
+beta_Español de Talca_Universidad de Concepción            1 
+x_Español de Talca_Universidad de Concepción_3_Gimnasio Regional de Talca_1            1 
+x_Español de Talca_Universidad de Concepción_11_Gimnasio Regional de Talca_2            1 
+y_Español de Talca_Universidad de Concepción_1_Gimnasio Regional de Talca_1            1 
+y_Español de Talca_Universidad de Concepción_4_Gimnasio Regional de Talca_2            1 
+alpha_Español de Talca_Municipal de Puente Alto            1 
+x_Español de Talca_Municipal de Puente Alto_6_Gimnasio Regional de Talca_1            1 
+x_Español de Talca_Municipal de Puente Alto_9_Gimnasio Regional de Talca_2            1 
+alpha_Español de Talca_AB Ancud            1 
+beta_Español de Talca_AB Ancud            1 
+x_Español de Talca_AB Ancud_2_Gimnasio Regional de Talca_1            1 
+x_Español de Talca_AB Ancud_8_Gimnasio Regional de Talca_2            1 
+y_Español de Talca_AB Ancud_2_Gimnasio Regional de Talca_1            1 
+y_Español de Talca_AB Ancud_2_Gimnasio Regional de Talca_2            1 
+alpha_Español de Talca_Deportes Castro            1 
+x_Español de Talca_Deportes Castro_1_Gimnasio Regional de Talca_1            1 
+x_Español de Talca_Deportes Castro_1_Gimnasio Regional de Talca_2            1 
+alpha_Español de Talca_CEB Puerto Montt            1 
+x_Español de Talca_CEB Puerto Montt_5_Gimnasio Regional de Talca_1            1 
+x_Español de Talca_CEB Puerto Montt_7_Gimnasio Regional de Talca_2            1 
+alpha_Tinguiririca de San Fernando_Colegio Los Leones de Quilpue            1 
+x_Tinguiririca de San Fernando_Colegio Los Leones de Quilpue_9_Gimnasio Municipal de San Fernando_2            1 
+x_Tinguiririca de San Fernando_Colegio Los Leones de Quilpue_10_Gimnasio Municipal de San Fernando_1            1 
+alpha_Tinguiririca de San Fernando_Universidad Católica            1 
+x_Tinguiririca de San Fernando_Universidad Católica_1_Gimnasio Municipal de San Fernando_1            1 
+x_Tinguiririca de San Fernando_Universidad Católica_4_Gimnasio Municipal de San Fernando_2            1 
+alpha_Tinguiririca de San Fernando_Universidad de Concepción            1 
+beta_Tinguiririca de San Fernando_Universidad de Concepción            1 
+x_Tinguiririca de San Fernando_Universidad de Concepción_8_Gimnasio Municipal de San Fernando_1            1 
+x_Tinguiririca de San Fernando_Universidad de Concepción_10_Gimnasio Municipal de San Fernando_2            1 
+y_Tinguiririca de San Fernando_Universidad de Concepción_2_Gimnasio Municipal de San Fernando_1            1 
+y_Tinguiririca de San Fernando_Universidad de Concepción_2_Gimnasio Municipal de San Fernando_2            1 
+alpha_Tinguiririca de San Fernando_Municipal de Puente Alto            1 
+x_Tinguiririca de San Fernando_Municipal de Puente Alto_3_Gimnasio Municipal de San Fernando_1            1 
+x_Tinguiririca de San Fernando_Municipal de Puente Alto_11_Gimnasio Municipal de San Fernando_2            1 
+beta_Tinguiririca de San Fernando_AB Ancud            1 
+y_Tinguiririca de San Fernando_AB Ancud_1_Gimnasio Municipal de San Fernando_1            1 
+y_Tinguiririca de San Fernando_AB Ancud_5_Gimnasio Municipal de San Fernando_2            1 
+alpha_Tinguiririca de San Fernando_Deportes Castro            1 
+x_Tinguiririca de San Fernando_Deportes Castro_2_Gimnasio Municipal de San Fernando_2            1 
+x_Tinguiririca de San Fernando_Deportes Castro_11_Gimnasio Municipal de San Fernando_1            1 
+alpha_Tinguiririca de San Fernando_CEB Puerto Montt            1 
+x_Tinguiririca de San Fernando_CEB Puerto Montt_2_Gimnasio Municipal de San Fernando_1            1 
+x_Tinguiririca de San Fernando_CEB Puerto Montt_5_Gimnasio Municipal de San Fernando_2            1 
+alpha_Universidad Católica_CEB Puerto Montt            1 
+x_Universidad Católica_CEB Puerto Montt_8_Estadio Palestino_1            1 
+x_Universidad Católica_CEB Puerto Montt_8_Estadio Palestino_2            1 
+alpha_Universidad de Concepción_Colegio Los Leones de Quilpue            1 
+x_Universidad de Concepción_Colegio Los Leones de Quilpue_6_Casa del Deporte_2            1 
+x_Universidad de Concepción_Colegio Los Leones de Quilpue_9_Casa del Deporte_1            1 
+beta_Universidad de Concepción_Español de Talca            1 
+y_Universidad de Concepción_Español de Talca_4_Casa del Deporte_1            1 
+y_Universidad de Concepción_Español de Talca_5_Casa del Deporte_2            1 
+alpha_Universidad de Concepción_Universidad Católica            1 
+x_Universidad de Concepción_Universidad Católica_7_Casa del Deporte_2            1 
+x_Universidad de Concepción_Universidad Católica_11_Casa del Deporte_1            1 
+alpha_Universidad de Concepción_Municipal de Puente Alto            1 
+x_Universidad de Concepción_Municipal de Puente Alto_5_Casa del Deporte_2            1 
+x_Universidad de Concepción_Municipal de Puente Alto_10_Casa del Deporte_1            1 
+alpha_Universidad de Concepción_Deportes Castro            1 
+x_Universidad de Concepción_Deportes Castro_6_Casa del Deporte_1            1 
+x_Universidad de Concepción_Deportes Castro_8_Casa del Deporte_2            1 
+alpha_Municipal de Puente Alto_Español de Talca            1 
+x_Municipal de Puente Alto_Español de Talca_4_Gimnasio Municipal de Puente Alto_1            1 
+x_Municipal de Puente Alto_Español de Talca_4_Gimnasio Municipal de Puente Alto_2            1 
+alpha_Municipal de Puente Alto_Tinguiririca de San Fernando            1 
+x_Municipal de Puente Alto_Tinguiririca de San Fernando_3_Gimnasio Municipal de Puente Alto_2            1 
+x_Municipal de Puente Alto_Tinguiririca de San Fernando_5_Gimnasio Municipal de Puente Alto_1            1 
+alpha_Municipal de Puente Alto_Universidad Católica            1 
+beta_Municipal de Puente Alto_Universidad Católica            1 
+x_Municipal de Puente Alto_Universidad Católica_9_Gimnasio Municipal de Puente Alto_1            1 
+x_Municipal de Puente Alto_Universidad Católica_10_Gimnasio Municipal de Puente Alto_2            1 
+y_Municipal de Puente Alto_Universidad Católica_1_Gimnasio Municipal de Puente Alto_2            1 
+y_Municipal de Puente Alto_Universidad Católica_5_Gimnasio Municipal de Puente Alto_1            1 
+alpha_Municipal de Puente Alto_Deportes Castro            1 
+beta_Municipal de Puente Alto_Deportes Castro            1 
+x_Municipal de Puente Alto_Deportes Castro_6_Gimnasio Municipal de Puente Alto_2            1 
+x_Municipal de Puente Alto_Deportes Castro_8_Gimnasio Municipal de Puente Alto_1            1 
+y_Municipal de Puente Alto_Deportes Castro_2_Gimnasio Municipal de Puente Alto_2            1 
+y_Municipal de Puente Alto_Deportes Castro_4_Gimnasio Municipal de Puente Alto_1            1 
+alpha_Municipal de Puente Alto_CEB Puerto Montt            1 
+x_Municipal de Puente Alto_CEB Puerto Montt_1_Gimnasio Municipal de Puente Alto_2            1 
+x_Municipal de Puente Alto_CEB Puerto Montt_7_Gimnasio Municipal de Puente Alto_1            1 
+alpha_Club Deportivo Valdivia_Colegio Los Leones de Quilpue            1 
+beta_Club Deportivo Valdivia_Colegio Los Leones de Quilpue            1 
+x_Club Deportivo Valdivia_Colegio Los Leones de Quilpue_4_Coliseo Municipal Antonio Azurmendy_1            1 
+x_Club Deportivo Valdivia_Colegio Los Leones de Quilpue_8_Coliseo Municipal Antonio Azurmendy_2            1 
+y_Club Deportivo Valdivia_Colegio Los Leones de Quilpue_2_Coliseo Municipal Antonio Azurmendy_2            1 
+y_Club Deportivo Valdivia_Colegio Los Leones de Quilpue_4_Coliseo Municipal Antonio Azurmendy_1            1 
+alpha_Club Deportivo Valdivia_Español de Talca            1 
+x_Club Deportivo Valdivia_Español de Talca_6_Coliseo Municipal Antonio Azurmendy_2            1 
+x_Club Deportivo Valdivia_Español de Talca_8_Coliseo Municipal Antonio Azurmendy_1            1 
+alpha_Club Deportivo Valdivia_Tinguiririca de San Fernando            1 
+beta_Club Deportivo Valdivia_Tinguiririca de San Fernando            1 
+x_Club Deportivo Valdivia_Tinguiririca de San Fernando_1_Coliseo Municipal Antonio Azurmendy_2            1 
+x_Club Deportivo Valdivia_Tinguiririca de San Fernando_9_Coliseo Municipal Antonio Azurmendy_1            1 
+y_Club Deportivo Valdivia_Tinguiririca de San Fernando_1_Coliseo Municipal Antonio Azurmendy_2            1 
+y_Club Deportivo Valdivia_Tinguiririca de San Fernando_5_Coliseo Municipal Antonio Azurmendy_1            1 
+alpha_Club Deportivo Valdivia_Universidad Católica            1 
+beta_Club Deportivo Valdivia_Universidad Católica            1 
+x_Club Deportivo Valdivia_Universidad Católica_2_Coliseo Municipal Antonio Azurmendy_1            1 
+x_Club Deportivo Valdivia_Universidad Católica_3_Coliseo Municipal Antonio Azurmendy_2            1 
+y_Club Deportivo Valdivia_Universidad Católica_2_Coliseo Municipal Antonio Azurmendy_1            1 
+y_Club Deportivo Valdivia_Universidad Católica_5_Coliseo Municipal Antonio Azurmendy_2            1 
+alpha_Club Deportivo Valdivia_Universidad de Concepción            1 
+x_Club Deportivo Valdivia_Universidad de Concepción_7_Coliseo Municipal Antonio Azurmendy_1            1 
+x_Club Deportivo Valdivia_Universidad de Concepción_9_Coliseo Municipal Antonio Azurmendy_2            1 
+beta_Club Deportivo Valdivia_Municipal de Puente Alto            1 
+y_Club Deportivo Valdivia_Municipal de Puente Alto_3_Coliseo Municipal Antonio Azurmendy_1            1 
+y_Club Deportivo Valdivia_Municipal de Puente Alto_3_Coliseo Municipal Antonio Azurmendy_2            1 
+alpha_Club Deportivo Valdivia_AB Ancud            1 
+x_Club Deportivo Valdivia_AB Ancud_5_Coliseo Municipal Antonio Azurmendy_1            1 
+x_Club Deportivo Valdivia_AB Ancud_7_Coliseo Municipal Antonio Azurmendy_2            1 
+alpha_Club Deportivo Valdivia_Osorno Básquetbol            1 
+x_Club Deportivo Valdivia_Osorno Básquetbol_10_Coliseo Municipal Antonio Azurmendy_2            1 
+x_Club Deportivo Valdivia_Osorno Básquetbol_11_Coliseo Municipal Antonio Azurmendy_1            1 
+alpha_Club Deportivo Valdivia_Deportes Castro            1 
+beta_Club Deportivo Valdivia_Deportes Castro            1 
+x_Club Deportivo Valdivia_Deportes Castro_3_Coliseo Municipal Antonio Azurmendy_1            1 
+x_Club Deportivo Valdivia_Deportes Castro_5_Coliseo Municipal Antonio Azurmendy_2            1 
+y_Club Deportivo Valdivia_Deportes Castro_1_Coliseo Municipal Antonio Azurmendy_1            1 
+y_Club Deportivo Valdivia_Deportes Castro_4_Coliseo Municipal Antonio Azurmendy_2            1 
+alpha_Club Deportivo Valdivia_Las Ánimas de Valdivia            1 
+x_Club Deportivo Valdivia_Las Ánimas de Valdivia_1_Coliseo Municipal Antonio Azurmendy_1            1 
+x_Club Deportivo Valdivia_Las Ánimas de Valdivia_11_Coliseo Municipal Antonio Azurmendy_2            1 
+alpha_Club Deportivo Valdivia_CEB Puerto Montt            1 
+x_Club Deportivo Valdivia_CEB Puerto Montt_4_Coliseo Municipal Antonio Azurmendy_2            1 
+x_Club Deportivo Valdivia_CEB Puerto Montt_6_Coliseo Municipal Antonio Azurmendy_1            1 
+alpha_AB Ancud_Colegio Los Leones de Quilpue            1 
+beta_AB Ancud_Colegio Los Leones de Quilpue            1 
+x_AB Ancud_Colegio Los Leones de Quilpue_3_Gimnasio Fiscal de Ancud_1            1 
+x_AB Ancud_Colegio Los Leones de Quilpue_3_Gimnasio Fiscal de Ancud_2            1 
+y_AB Ancud_Colegio Los Leones de Quilpue_1_Gimnasio Fiscal de Ancud_2            1 
+y_AB Ancud_Colegio Los Leones de Quilpue_3_Gimnasio Fiscal de Ancud_1            1 
+alpha_AB Ancud_Tinguiririca de San Fernando            1 
+beta_AB Ancud_Tinguiririca de San Fernando            1 
+x_AB Ancud_Tinguiririca de San Fernando_6_Gimnasio Fiscal de Ancud_2            1 
+x_AB Ancud_Tinguiririca de San Fernando_7_Gimnasio Fiscal de Ancud_1            1 
+y_AB Ancud_Tinguiririca de San Fernando_4_Gimnasio Fiscal de Ancud_1            1 
+y_AB Ancud_Tinguiririca de San Fernando_4_Gimnasio Fiscal de Ancud_2            1 
+alpha_AB Ancud_Universidad Católica            1 
+x_AB Ancud_Universidad Católica_4_Gimnasio Fiscal de Ancud_1            1 
+x_AB Ancud_Universidad Católica_9_Gimnasio Fiscal de Ancud_2            1 
+alpha_AB Ancud_Universidad de Concepción            1 
+beta_AB Ancud_Universidad de Concepción            1 
+x_AB Ancud_Universidad de Concepción_1_Gimnasio Fiscal de Ancud_1            1 
+x_AB Ancud_Universidad de Concepción_2_Gimnasio Fiscal de Ancud_2            1 
+y_AB Ancud_Universidad de Concepción_3_Gimnasio Fiscal de Ancud_2            1 
+y_AB Ancud_Universidad de Concepción_5_Gimnasio Fiscal de Ancud_1            1 
+alpha_AB Ancud_Deportes Castro            1 
+x_AB Ancud_Deportes Castro_10_Gimnasio Fiscal de Ancud_1            1 
+x_AB Ancud_Deportes Castro_11_Gimnasio Fiscal de Ancud_2            1 
+alpha_AB Ancud_CEB Puerto Montt            1 
+x_AB Ancud_CEB Puerto Montt_10_Gimnasio Fiscal de Ancud_2            1 
+x_AB Ancud_CEB Puerto Montt_11_Gimnasio Fiscal de Ancud_1            1 
+alpha_Osorno Básquetbol_Colegio Los Leones de Quilpue            1 
+x_Osorno Básquetbol_Colegio Los Leones de Quilpue_8_Gimnasio Monumental María Gallardo_1            1 
+x_Osorno Básquetbol_Colegio Los Leones de Quilpue_11_Gimnasio Monumental María Gallardo_2            1 
+alpha_Osorno Básquetbol_Español de Talca            1 
+beta_Osorno Básquetbol_Español de Talca            1 
+x_Osorno Básquetbol_Español de Talca_3_Gimnasio Monumental María Gallardo_2            1 
+x_Osorno Básquetbol_Español de Talca_7_Gimnasio Monumental María Gallardo_1            1 
+y_Osorno Básquetbol_Español de Talca_1_Gimnasio Monumental María Gallardo_2            1 
+y_Osorno Básquetbol_Español de Talca_5_Gimnasio Monumental María Gallardo_1            1 
+alpha_Osorno Básquetbol_Tinguiririca de San Fernando            1 
+beta_Osorno Básquetbol_Tinguiririca de San Fernando            1 
+x_Osorno Básquetbol_Tinguiririca de San Fernando_4_Gimnasio Monumental María Gallardo_1            1 
+x_Osorno Básquetbol_Tinguiririca de San Fernando_8_Gimnasio Monumental María Gallardo_2            1 
+y_Osorno Básquetbol_Tinguiririca de San Fernando_3_Gimnasio Monumental María Gallardo_1            1 
+y_Osorno Básquetbol_Tinguiririca de San Fernando_3_Gimnasio Monumental María Gallardo_2            1 
+alpha_Osorno Básquetbol_Universidad Católica            1 
+beta_Osorno Básquetbol_Universidad Católica            1 
+x_Osorno Básquetbol_Universidad Católica_5_Gimnasio Monumental María Gallardo_2            1 
+x_Osorno Básquetbol_Universidad Católica_6_Gimnasio Monumental María Gallardo_1            1 
+y_Osorno Básquetbol_Universidad Católica_2_Gimnasio Monumental María Gallardo_2            1 
+y_Osorno Básquetbol_Universidad Católica_4_Gimnasio Monumental María Gallardo_1            1 
+alpha_Osorno Básquetbol_Universidad de Concepción            1 
+x_Osorno Básquetbol_Universidad de Concepción_1_Gimnasio Monumental María Gallardo_2            1 
+x_Osorno Básquetbol_Universidad de Concepción_2_Gimnasio Monumental María Gallardo_1            1 
+alpha_Osorno Básquetbol_Municipal de Puente Alto            1 
+x_Osorno Básquetbol_Municipal de Puente Alto_1_Gimnasio Monumental María Gallardo_1            1 
+x_Osorno Básquetbol_Municipal de Puente Alto_2_Gimnasio Monumental María Gallardo_2            1 
+alpha_Osorno Básquetbol_AB Ancud            1 
+x_Osorno Básquetbol_AB Ancud_4_Gimnasio Monumental María Gallardo_2            1 
+x_Osorno Básquetbol_AB Ancud_9_Gimnasio Monumental María Gallardo_1            1 
+alpha_Osorno Básquetbol_Deportes Castro            1 
+beta_Osorno Básquetbol_Deportes Castro            1 
+x_Osorno Básquetbol_Deportes Castro_5_Gimnasio Monumental María Gallardo_1            1 
+x_Osorno Básquetbol_Deportes Castro_7_Gimnasio Monumental María Gallardo_2            1 
+y_Osorno Básquetbol_Deportes Castro_2_Gimnasio Monumental María Gallardo_1            1 
+y_Osorno Básquetbol_Deportes Castro_5_Gimnasio Monumental María Gallardo_2            1 
+alpha_Osorno Básquetbol_Las Ánimas de Valdivia            1 
+x_Osorno Básquetbol_Las Ánimas de Valdivia_3_Gimnasio Monumental María Gallardo_1            1 
+x_Osorno Básquetbol_Las Ánimas de Valdivia_9_Gimnasio Monumental María Gallardo_2            1 
+alpha_Osorno Básquetbol_CEB Puerto Montt            1 
+beta_Osorno Básquetbol_CEB Puerto Montt            1 
+x_Osorno Básquetbol_CEB Puerto Montt_6_Gimnasio Monumental María Gallardo_2            1 
+x_Osorno Básquetbol_CEB Puerto Montt_10_Gimnasio Monumental María Gallardo_1            1 
+y_Osorno Básquetbol_CEB Puerto Montt_1_Gimnasio Monumental María Gallardo_1            1 
+y_Osorno Básquetbol_CEB Puerto Montt_4_Gimnasio Monumental María Gallardo_2            1 
+alpha_Deportes Castro_Universidad de Concepción            1 
+x_Deportes Castro_Universidad de Concepción_3_Gimnasio Fiscal de Castro_2            1 
+x_Deportes Castro_Universidad de Concepción_4_Gimnasio Fiscal de Castro_1            1 
+beta_Las Ánimas de Valdivia_Colegio Los Leones de Quilpue            1 
+y_Las Ánimas de Valdivia_Colegio Los Leones de Quilpue_2_Gimnasio de Las Ánimas_1            1 
+y_Las Ánimas de Valdivia_Colegio Los Leones de Quilpue_5_Gimnasio de Las Ánimas_2            1 
+alpha_Las Ánimas de Valdivia_Español de Talca            1 
+x_Las Ánimas de Valdivia_Español de Talca_5_Gimnasio de Las Ánimas_2            1 
+x_Las Ánimas de Valdivia_Español de Talca_9_Gimnasio de Las Ánimas_1            1 
+alpha_Las Ánimas de Valdivia_Tinguiririca de San Fernando            1 
+x_Las Ánimas de Valdivia_Tinguiririca de San Fernando_6_Gimnasio de Las Ánimas_1            1 
+x_Las Ánimas de Valdivia_Tinguiririca de San Fernando_7_Gimnasio de Las Ánimas_2            1 
+alpha_Las Ánimas de Valdivia_Universidad Católica            1 
+x_Las Ánimas de Valdivia_Universidad Católica_6_Gimnasio de Las Ánimas_2            1 
+x_Las Ánimas de Valdivia_Universidad Católica_7_Gimnasio de Las Ánimas_1            1 
+alpha_Las Ánimas de Valdivia_Universidad de Concepción            1 
+beta_Las Ánimas de Valdivia_Universidad de Concepción            1 
+x_Las Ánimas de Valdivia_Universidad de Concepción_4_Gimnasio de Las Ánimas_2            1 
+x_Las Ánimas de Valdivia_Universidad de Concepción_5_Gimnasio de Las Ánimas_1            1 
+y_Las Ánimas de Valdivia_Universidad de Concepción_1_Gimnasio de Las Ánimas_2            1 
+y_Las Ánimas de Valdivia_Universidad de Concepción_3_Gimnasio de Las Ánimas_1            1 
+alpha_Las Ánimas de Valdivia_Municipal de Puente Alto            1 
+beta_Las Ánimas de Valdivia_Municipal de Puente Alto            1 
+x_Las Ánimas de Valdivia_Municipal de Puente Alto_8_Gimnasio de Las Ánimas_2            1 
+x_Las Ánimas de Valdivia_Municipal de Puente Alto_11_Gimnasio de Las Ánimas_1            1 
+y_Las Ánimas de Valdivia_Municipal de Puente Alto_1_Gimnasio de Las Ánimas_1            1 
+y_Las Ánimas de Valdivia_Municipal de Puente Alto_4_Gimnasio de Las Ánimas_2            1 
+alpha_Las Ánimas de Valdivia_Club Deportivo Valdivia            1 
+x_Las Ánimas de Valdivia_Club Deportivo Valdivia_2_Gimnasio de Las Ánimas_2            1 
+x_Las Ánimas de Valdivia_Club Deportivo Valdivia_10_Gimnasio de Las Ánimas_1            1 
+alpha_Las Ánimas de Valdivia_AB Ancud            1 
+x_Las Ánimas de Valdivia_AB Ancud_1_Gimnasio de Las Ánimas_2            1 
+x_Las Ánimas de Valdivia_AB Ancud_8_Gimnasio de Las Ánimas_1            1 
+alpha_Las Ánimas de Valdivia_Deportes Castro            1 
+beta_Las Ánimas de Valdivia_Deportes Castro            1 
+x_Las Ánimas de Valdivia_Deportes Castro_2_Gimnasio de Las Ánimas_1            1 
+x_Las Ánimas de Valdivia_Deportes Castro_10_Gimnasio de Las Ánimas_2            1 
+y_Las Ánimas de Valdivia_Deportes Castro_3_Gimnasio de Las Ánimas_2            1 
+y_Las Ánimas de Valdivia_Deportes Castro_5_Gimnasio de Las Ánimas_1            1 
+alpha_Las Ánimas de Valdivia_CEB Puerto Montt            1 
+beta_Las Ánimas de Valdivia_CEB Puerto Montt            1 
+x_Las Ánimas de Valdivia_CEB Puerto Montt_3_Gimnasio de Las Ánimas_2            1 
+x_Las Ánimas de Valdivia_CEB Puerto Montt_4_Gimnasio de Las Ánimas_1            1 
+y_Las Ánimas de Valdivia_CEB Puerto Montt_2_Gimnasio de Las Ánimas_2            1 
+y_Las Ánimas de Valdivia_CEB Puerto Montt_4_Gimnasio de Las Ánimas_1            1 
+alpha_CEB Puerto Montt_Colegio Los Leones de Quilpue            1 
+beta_CEB Puerto Montt_Colegio Los Leones de Quilpue            1 
+x_CEB Puerto Montt_Colegio Los Leones de Quilpue_1_Gimnasio Municipal Mario Merchant Binder_1            1 
+x_CEB Puerto Montt_Colegio Los Leones de Quilpue_2_Gimnasio Municipal Mario Merchant Binder_2            1 
+y_CEB Puerto Montt_Colegio Los Leones de Quilpue_3_Gimnasio Municipal Mario Merchant Binder_2            1 
+y_CEB Puerto Montt_Colegio Los Leones de Quilpue_5_Gimnasio Municipal Mario Merchant Binder_1            1 
+alpha_CEB Puerto Montt_Universidad Católica            1 
+x_CEB Puerto Montt_Universidad Católica_3_Gimnasio Municipal Mario Merchant Binder_1            1 
+x_CEB Puerto Montt_Universidad Católica_11_Gimnasio Municipal Mario Merchant Binder_2            1 
+beta_CEB Puerto Montt_Municipal de Puente Alto            1 
+y_CEB Puerto Montt_Municipal de Puente Alto_2_Gimnasio Municipal Mario Merchant Binder_1            1 
+y_CEB Puerto Montt_Municipal de Puente Alto_5_Gimnasio Municipal Mario Merchant Binder_2            1 
+alpha_CEB Puerto Montt_Deportes Castro            1 
+beta_CEB Puerto Montt_Deportes Castro            1 
+x_CEB Puerto Montt_Deportes Castro_9_Gimnasio Municipal Mario Merchant Binder_1            1 
+x_CEB Puerto Montt_Deportes Castro_9_Gimnasio Municipal Mario Merchant Binder_2            1 
+y_CEB Puerto Montt_Deportes Castro_1_Gimnasio Municipal Mario Merchant Binder_2            1 
+y_CEB Puerto Montt_Deportes Castro_3_Gimnasio Municipal Mario Merchant Binder_1            1 
+           H        18950 
+Freed default Gurobi environment
+
+Process finished with exit code 0

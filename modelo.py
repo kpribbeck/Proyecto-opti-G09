@@ -153,6 +153,40 @@ m.setObjective(H, GRB.MAXIMIZE)
 ###########################################################################
 
 # En la liga interzona, los equipos se enfrentan solo contra rivales de su misma conferencia
+<<<<<<< HEAD
+#for equipo1 in equipos:
+#    for equipo2 in equipos:
+#        if (equipo1 == equipo2):
+#            continue
+#        for f_i in F_I:
+#            for t_i in T_I:
+#                for conferencia in C:
+#                    m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, t_i] for estadio in estadios) <=
+#                                (co[equipo1][conferencia] + co[equipo2][conferencia])/2)
+
+# Un equipo juega un solo partido por fecha
+for equipo1 in equipos:
+    for t_n in T_N:
+        for f_n in F_N:
+            m.addConstr(quicksum(
+                x[equipo1, equipo2, f_n, estadio, t_n] + x[equipo2, equipo1, f_n, estadio, t_n] for estadio in estadios
+                for equipo2 in equipos if equipo1 != equipo2) == 1)
+    for t_i in T_I:
+        for f_i in F_I:
+            m.addConstr(quicksum(
+                y[equipo1, equipo2, f_i, estadio, t_i] + y[equipo2, equipo1, f_i, estadio, t_i] for estadio in estadios
+                for equipo2 in equipos if equipo1 != equipo2) == 1)
+
+# Dos equipos se enfrentan una sola vez por ronda
+#for equipo1 in equipos:
+#    for equipo2 in equipos:
+#        if equipo1 == equipo2:
+#            continue
+#        for t_n in T_N:
+#            m.addConstr(quicksum(x[equipo1, equipo2, f_n, estadio, t_n] + x[equipo2, equipo1, f_n, estadio, t_n] for f_n in F_N for estadio in estadios) == 1)
+#        for t_i in T_I:
+#            m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, t_i] + y[equipo2, equipo1, f_i, estadio, t_i] for f_i in F_I for estadio in estadios) == 1)
+=======
 def R1():
     for equipo1 in equipos:
         for equipo2 in equipos:
@@ -188,6 +222,7 @@ def R3():
                 m.addConstr(quicksum(x[equipo1, equipo2, f_n, estadio, t_n] + x[equipo2, equipo1, f_n, estadio, t_n] for f_n in F_N for estadio in estadios) == 1)
             for t_i in T_I:
                 m.addConstr(quicksum(y[equipo1, equipo2, f_i, estadio, t_i] + y[equipo2, equipo1, f_i, estadio, t_i] for f_i in F_I for estadio in estadios) == 1)
+>>>>>>> cd987004131a053ed9a1018fd9ae2b85bca61313
 
 #Dos equipos se enfrentan en estadios distintos en rondas distintas
 def R4():
@@ -213,6 +248,23 @@ def R5():
                         quicksum(y[equipo1, equipo2, f_i, estadio, t_i] for equipo2 in equipos if equipo1 != equipo2) <=
                         e[equipo1][estadio])
 
+<<<<<<< HEAD
+    # Cota inferior de capacidades por fecha (H)
+    for t_n in T_N:
+        for f_n in F_N:
+            m.addConstr(
+                H <= quicksum(
+                    c[estadio] * x[equipo1, equipo2, f_n, estadio, t_n] for equipo1 in equipos for equipo2 in equipos
+                    for estadio in estadios if equipo1 != equipo2))
+    for t_i in T_I:
+        for f_i in F_I:
+            m.addConstr(
+                H <= quicksum(
+                    c[estadio] * y[equipo1, equipo2, f_i, estadio, t_i] for equipo1 in equipos for equipo2 in equipos
+                    for estadio in estadios if equipo1 != equipo2))
+
+    # Definicion alpha y beta
+=======
 # Cota inferior de capacidades por fecha (H)
 def R6():
     for f_n in F_N:
@@ -230,6 +282,7 @@ def R6():
 
 #Definicion alpha y beta
 def R7():
+>>>>>>> cd987004131a053ed9a1018fd9ae2b85bca61313
     for equipo1 in equipos:
         for equipo2 in equipos:
             if equipo1 == equipo2:
@@ -239,6 +292,12 @@ def R7():
             m.addConstr(quicksum(
                 y[equipo1, equipo2, f_i, estadio, 1] for f_i in F_I for estadio in estadios) == beta[equipo1, equipo2])
 
+<<<<<<< HEAD
+#Resolver el modelo
+m.optimize()
+#m.computeIIS()
+#m.write("model.ilp")
+=======
 #Aplicar restricciones
 
 print("\n\n"+"#"*40)
@@ -256,6 +315,8 @@ try:
 except:
     print("Modelo factible")
     
+>>>>>>> cd987004131a053ed9a1018fd9ae2b85bca61313
 
 #Imprimir los valores de las variables para la solución óptima
-#m.printAttr("X")
+m.printAttr("x")
+
