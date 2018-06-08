@@ -250,8 +250,12 @@ for _ in sys.argv[1:]:
     constr[int(_) - 1]()
 
 #m.optimize()
-m.computeIIS()
-m.write("m_{}.ilp".format("_".join(sys.argv[1:])))
+try:
+    m.computeIIS()
+    m.write("m_{}.ilp".format("_".join(sys.argv[1:])))
+except:
+    print("Modelo factible")
+    
 
 #Imprimir los valores de las variables para la solución óptima
 #m.printAttr("X")
